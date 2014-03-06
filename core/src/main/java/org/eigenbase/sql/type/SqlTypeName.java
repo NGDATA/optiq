@@ -169,6 +169,7 @@ public enum SqlTypeName {
               // TODO: provide real support for these eventually
           .put(ExtraSqlTypes.NCHAR, CHAR)
           .put(ExtraSqlTypes.NVARCHAR, VARCHAR)
+          .put(ExtraSqlTypes.PHOENIX_VARCHAR_ARRAY, ARRAY)
 
               // TODO: additional types not yet supported. See ExtraSqlTypes.
               // .put(Types.LONGVARCHAR, Longvarchar)

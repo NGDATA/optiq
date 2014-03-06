@@ -43,6 +43,7 @@ public interface ExtraSqlTypes {
   int REF_CURSOR = 2012;
   int TIME_WITH_TIMEZONE = 2013;
   int TIMESTAMP_WITH_TIMEZONE = 2014;
+  int PHOENIX_VARCHAR_ARRAY = 2015;
 }
 
 // End ExtraSqlTypes.java
